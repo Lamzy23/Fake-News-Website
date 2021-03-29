@@ -1,0 +1,10 @@
+#slider {	
+    overflow: hidden;
+}
+#slider figure{
+    postion: relative;
+    width: 200%
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}

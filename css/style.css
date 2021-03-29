@@ -1,0 +1,80 @@
+#wrapper {
+
+width:70%;
+margin:auto
+
+
+body {
+  background-color: lightblue;
+}
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav  ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+nav ul li a:hover {
+  background-color: #FF5733;
+}
+
+.grid-container {
+	display: flex;
+}
+
+
+#slider {	
+    overflow: hidden;
+}
+#slider figure{
+    postion: relative;
+    width: 200%
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+
+  <li><a href="#lastest">Lastest News</a></li>
+
+  <li><a href="#news">News</a></li>
+
+  <li><a href="#video">Video</a></li>
+
+  <li><a href="#faq">FAQ</a></li>
+
+  <li><a href="#Lesson">Lesson</a></li>
+
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
